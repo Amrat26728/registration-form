@@ -1,0 +1,51 @@
+body{
+     background-color: teal;
+}
+
+/* for all other properties */
+* {
+     box-sizing: border-box;
+}
+
+/* css for form  */
+.form {
+     margin: auto;
+     width: 50%;
+     padding: 20px;
+     background-color: white;
+     box-shadow: 20px 20px 20px 0px rgba(0, 0, 0, 0.7);
+     text-align: center;
+}
+
+/* css for input fields */
+input[type="text"],
+input[type="password"] {
+     width: 100%;
+     padding: 10px;
+     margin: 0px 0px 10px 0px;
+     display: inline-block;
+     border: none;
+     background-color: whitesmoke;
+     text-align: center;
+}
+input[type="text"]:focus,
+input[type="password"]:focus {
+     background-color: #ddd;
+     outline: none;
+}
+
+/* css for registration button */
+.registerbtn {
+     background-color: teal;
+     color: white;
+     width: 100%;
+     padding: 15px;
+     font-size: 20px;
+     border: none;
+     cursor: pointer;
+     margin: auto;
+     opacity: 0.8;
+}
+.registerbtn:hover {
+     opacity: 1;
+}
